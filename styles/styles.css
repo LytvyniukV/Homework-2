@@ -23,8 +23,8 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-accent {
@@ -38,6 +38,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-links:hover, .header-links:focus{
+  color: #404BBF;
+}
 .contact-links {
   color: var(--slate, #434455);
   font-size: 16px;
@@ -45,6 +48,9 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.contact-links:hover, .contact-links:focus{
+  color: #404BBF;
 }
 /* HERO SECTION */
 .hero-section {
@@ -71,6 +77,9 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.042em;
+}
+.hero-button:hover, .hero-button:focus{
+  background-color: #404BBF;
 }
 
 /* FEATURES SECTION */
@@ -108,13 +117,12 @@ ul {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    text-align: center;
+  text-align: center;
 }
 .team-images {
   background: url(<path-to-image>),
     lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
-
 
 /* PORTFOLIO SECTION */
 .portfolio-list {
@@ -122,26 +130,27 @@ ul {
   background: var(--white, #fff);
   text-align: center;
 }
-.portfolio-images{
-    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
+.portfolio-images {
+  background: url(<path-to-image>),
+    lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 /* FOOTER */
-footer{
-    background-color: var(--navyblue);
+footer {
+  background-color: var(--navyblue);
 }
-.logo-footer{
-    color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.166;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-footer {
+  color: var(--cloud, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.text-footer{
-    color: var(--cloud, #F4F4FD);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.text-footer {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
