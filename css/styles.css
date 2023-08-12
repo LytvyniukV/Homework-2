@@ -68,7 +68,8 @@ ul {
   letter-spacing: 0.02em;
 }
 .hero-button {
-  border-radius: 4px;
+  /* ox-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+  /* border-radius: 4px; */
   background: var(--iris, #4d5ae5);
   
 
@@ -115,7 +116,8 @@ ul {
   text-transform: capitalize;
 }
 .team-list {
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
+  /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
   background: var(--white, #fff);
   text-align: center;
 }
