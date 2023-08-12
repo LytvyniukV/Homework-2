@@ -70,7 +70,7 @@ ul {
 .hero-button {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  
 
   /* Button Text */
   color: var(--white, #fff);
@@ -117,9 +117,6 @@ ul {
 .team-list {
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   text-align: center;
 }
 .team-images {
