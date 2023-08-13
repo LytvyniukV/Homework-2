@@ -60,7 +60,7 @@ ul {
 }
 .hero-title {
   color: var(--white, #fff);
-  text-align: center;
+  /* text-align: center; */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -107,7 +107,7 @@ ul {
 }
 .section-title {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
+  /* text-align: center; */
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -128,9 +128,9 @@ ul {
 
 /* PORTFOLIO SECTION */
 .portfolio-list {
-  border: 1px solid var(--cornflower, #e7e9fc);
+  /* border: 1px solid var(--cornflower, #e7e9fc); */
   background: var(--white, #fff);
-  text-align: center;
+  /* text-align: center; */
 }
 .portfolio-images {
   background: url(<path-to-image>),
